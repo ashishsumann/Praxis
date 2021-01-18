@@ -5,6 +5,7 @@ plugins {
   id(BuildPlugins.KOTLIN_ANDROID_PLUGIN)
   id(BuildPlugins.KOTLIN_PARCELABLE_PLUGIN)
   id(BuildPlugins.KOTLIN_KAPT)
+  id(BuildPlugins.FMS_PLUGIN)
   id("org.jlleitschuh.gradle.ktlint")
 }
 
@@ -25,6 +26,7 @@ android {
     targetSdkVersion(ProjectProperties.TARGET_SDK)
     versionCode = 1
     versionName = "1.0"
+    multiDexEnabled = true
     testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
     vectorDrawables.useSupportLibrary = true
   }
@@ -95,10 +97,15 @@ dependencies {
   implementation("com.google.code.gson:gson:2.8.6")
   implementation("com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar")
 
-
   /* Async */
   api(Lib.Async.COROUTINES)
   api(Lib.Async.COROUTINES_ANDROID)
+
+  /*Push Notification*/
+  implementation("com.google.android.gms:play-services-auth:19.0.0")
+  implementation(Lib.Notification.FMS_DEPENDENCY)
+  implementation(Lib.Notification.AWS_PINPOINT)
+  implementation(Lib.Notification.AWS_MOBILE_CLIENT) { isTransitive = true }
 
   /*Testing*/
   testImplementation(TestLib.JUNIT)

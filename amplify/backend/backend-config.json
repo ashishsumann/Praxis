@@ -1,0 +1,17 @@
+{
+    "auth": {
+        "cognitoff4c78d0": {
+            "service": "Cognito",
+            "serviceType": "managed",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "notifications": {
+        "PraxisYnpKO": {
+            "service": "Pinpoint",
+            "channels": [
+                "FCM"
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "306649811827",
+    "firebase_url": "https://praxis-ee1b1.firebaseio.com",
+    "project_id": "praxis-ee1b1",
+    "storage_bucket": "praxis-ee1b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306649811827:android:c18cd427ec4d318c84d306",
+        "android_client_info": {
+          "package_name": "com.mutualmobile.praxis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306649811827-q367gkv7fmmcqr0c0cbra651lbg83f77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbhontd-FDRNiBY6mosufaN-mpnRR9Rjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306649811827-q367gkv7fmmcqr0c0cbra651lbg83f77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

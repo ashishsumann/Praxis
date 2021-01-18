@@ -4,6 +4,7 @@ object BuildPlugins {
   private const val TOOLS_BUILD = "4.0.0"
   private const val KT_LINT = "9.2.1"
   private const val SAFE_ARGS = "2.3.0"
+  private const val GMS_VERSION = "4.3.4"
 
   const val TOOLS_BUILD_GRADLE =
     "com.android.tools.build:gradle:${TOOLS_BUILD}"
@@ -11,12 +12,16 @@ object BuildPlugins {
     "org.jlleitschuh.gradle:ktlint-gradle:${KT_LINT}"
   const val SAFE_ARGS_GRADLE_PLUGIN =
     "androidx.navigation:navigation-safe-args-gradle-plugin:${SAFE_ARGS}"
+  const val GMS_SERVICE = "com.google.gms:google-services:${GMS_VERSION}"
+
+
   const val ANDROID_APPLICATION_PLUGIN = "com.android.application"
   const val ANDROID_LIBRARY_PLUGIN = "com.android.library"
   const val KOTLIN_ANDROID_PLUGIN = "kotlin-android"
   const val KOTLIN_PARCELABLE_PLUGIN = "kotlin-parcelize"
   const val KOTLIN_KAPT = "kotlin-kapt"
   const val SAFE_ARGS_PLUGIN = "androidx.navigation.safeargs.kotlin"
+  const val FMS_PLUGIN = "com.google.gms.google-services"
 }
 
 object Lib {
@@ -86,6 +91,16 @@ object Lib {
   object Logger {
     private const val TIMBER_VERSION = "4.7.1"
     const val TIMBER = "com.jakewharton.timber:timber:${TIMBER_VERSION}"
+  }
+
+  object Notification{
+    private const val FMS_VERSION = "21.0.1"
+    private const val AWS_PINPOINT_VERSION = "2.22.0"
+    private const val AWS_MOBILE_CLIENT_VERSION = "2.15.+@aar"
+
+    const val FMS_DEPENDENCY = "com.google.firebase:firebase-messaging:${FMS_VERSION}"
+    const val AWS_PINPOINT = "com.amazonaws:aws-android-sdk-pinpoint:${AWS_PINPOINT_VERSION}"
+    const val AWS_MOBILE_CLIENT = "com.amazonaws:aws-android-sdk-mobile-client:${AWS_MOBILE_CLIENT_VERSION}"
   }
 }
 

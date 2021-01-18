@@ -27,7 +27,6 @@
     </activity>
 
     <activity android:name=".ui.joke.ShowJokeActivity"/>
-
   </application>
 
 </manifest>

@@ -1,0 +1,27 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-praxis-dev-113507-authRole",
+            "UnauthRoleArn": "arn:aws:iam::249996209024:role/amplify-praxis-dev-113507-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::249996209024:role/amplify-praxis-dev-113507-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-praxis-dev-113507-deployment",
+            "UnauthRoleName": "amplify-praxis-dev-113507-unauthRole",
+            "StackName": "amplify-praxis-dev-113507",
+            "StackId": "arn:aws:cloudformation:us-east-2:249996209024:stack/amplify-praxis-dev-113507/20c9dd30-5953-11eb-9843-0a36cfab612c",
+            "AmplifyAppId": "d2srypbyvp2fql"
+        },
+        "categories": {
+            "auth": {
+                "cognitoff4c78d0": {}
+            },
+            "notifications": {
+                "Pinpoint": {
+                    "Name": "PraxisYnpKO-dev",
+                    "Id": "e70a181531be4c6e8e94a9ddeb97d26e",
+                    "Region": "us-east-1"
+                }
+            }
+        }
+    }
+}
