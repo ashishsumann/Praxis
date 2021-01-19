@@ -39,6 +39,8 @@ The general idea of Clean Code Architecture is to divide an application into lay
 **Data Layer**  contains abstract definition of all the data sources, _Repository Implementations and 1 or multiple Data Sources._  Repositories are responsible to coordinate data from the different Data Sources. Data Layer depends on Domain Layer.
 
 **Notes:** Mapping between response models and transformed models will happen via extension functions defined in transformed model file
+### App Flow:
+<img src="art/app_flow.png" />
 
 ### Conventions:
 Files are suffixed with be defined Class types.
