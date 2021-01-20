@@ -1,0 +1,30 @@
+{
+  "type": "success",
+  "value": [
+    {
+      "id": 586,
+      "joke": "Chuck Norris already went to Moon and Mars, that's why there are no signs of life.",
+      "categories": []
+    },
+    {
+      "id": 99,
+      "joke": "Chuck Norris has 12 moons. One of those moons is the Earth.",
+      "categories": []
+    },
+    {
+      "id": 300,
+      "joke": "Chuck Norris eats steak for every single meal. Most times he forgets to kill the cow.",
+      "categories": []
+    },
+    {
+      "id": 166,
+      "joke": "Chuck Norris doesn't play god. Playing is for children.",
+      "categories": []
+    },
+    {
+      "id": 292,
+      "joke": "If you were somehow able to land a punch on Chuck Norris your entire arm would shatter upon impact. This is only in theory, since, come on, who in their right mind would try this?",
+      "categories": []
+    }
+  ]
+}
